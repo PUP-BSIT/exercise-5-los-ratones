@@ -65,7 +65,6 @@ def question_3():
     else:
         return 0
     
-# TODO(Paul Benidict Reduta): Create question 4.
 def question_4():
     member = "Paul Benidict L. Reduta"
     question = "In the game 'League of Legends', which item grants bonus health scaling with stacks."
