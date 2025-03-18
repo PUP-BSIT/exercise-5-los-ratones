@@ -35,9 +35,9 @@ def question_2():
 
     if answer == 'D':
         right_answer = True
-        print("You are correct! Jett is the agent that uses knives as their ult!")
+        print("You are correct! Jett is the agent that uses knives as their ult!\n")
     else:
-        print(f"{answer} is incorrect. The correct answer is D.")
+        print(f"{answer} is incorrect. The correct answer is D.\n")
 
     if right_answer == True:
         return 1
@@ -57,9 +57,9 @@ def question_3():
 
     if answer == 'C':
         right_answer = True
-        print("You are correct!")
+        print("You are correct! The Creeper is the blocky enemy that explodes!\n")
     else:
-        print(f"{answer} is incorrect. The correct answer is C.")
+        print(f"{answer} is incorrect. The correct answer is C.\n")
 
     if right_answer == True:
         return 1
