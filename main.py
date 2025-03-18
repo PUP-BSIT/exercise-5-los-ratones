@@ -24,13 +24,12 @@ def question_1():
 def question_2():
     member = "Jedi Duncan S. Gonot"
     question = "In Valorant, who is the agent that uses knives as their ult?"
-    choices = ["Brimstone", "Waylay", 
-                "Kay-o", "Jett"]
+    choices = ["Brimstone", "Waylay", "Kay-o", "Jett"]
     right_answer = False
     
     print(f"({member}) {question}")
-    print(f"A. {choices[0]} B. {choices[1]}")
-    print(f"C. {choices[2]}  D. {choices[3]}")
+    print(f"A. {choices[0]}     B. {choices[1]}")
+    print(f"C. {choices[2]}         D. {choices[3]}")
     answer = input("Enter your answer: ").capitalize()
 
     if answer == 'D':
@@ -51,8 +50,8 @@ def question_3():
     right_answer = False
     
     print(f"({member}) {question}")
-    print(f"A. {choices[0]} B. {choices[1]}")
-    print(f"C. {choices[2]}  D. {choices[3]}")
+    print(f"A. {choices[0]}      B. {choices[1]}")
+    print(f"C. {choices[2]}      D. {choices[3]}")
     answer = input("Enter your answer: ").capitalize()
 
     if answer == 'C':
@@ -65,6 +64,7 @@ def question_3():
         return 1
     else:
         return 0
+    
 # TODO(Paul Benidict Reduta): Create question 4.
 def question_4():
     member = "Paul Benidict L. Reduta"
@@ -74,21 +74,20 @@ def question_4():
     right_answer = False 
 
     print(f"({member}) {question}")
-    print(f"A. {choices[0]}, B. {choices[1]}")
-    print(f"C. {choices[2]}, D. {choices[3]}")
+    print(f"A. {choices[0]} B. {choices[1]}")
+    print(f"C. {choices[2]}    D. {choices[3]}")
     answer = input("Enter your answer: ").capitalize()
 
-    if answer == 'D':
+    if answer == 'C':
         right_answer = True
-        print("You are correct! India is the dirtiest country in the world!\n")
+        print("You are correct! Heartsteel grants a stack that gives bonus health!\n")
     else:
-        print(f"{answer} is incorrect. The correct answer is D.\n")
+        print(f"{answer} is incorrect. The correct answer is C.\n")
 
     if right_answer == True:
         return 1
     else:
         return 0
-
 
 def question_5():
     member = "John Paul Rodriguez"
@@ -97,8 +96,8 @@ def question_5():
     right_answer = False
 
     print(f"({member}) {question}")
-    print(f"A. {choices[0]} B. {choices[1]}")
-    print(f"C. {choices[2]} D. {choices[3]}")
+    print(f"A. {choices[0]}      B. {choices[1]}")
+    print(f"C. {choices[2]}          D. {choices[3]}")
     
     answer = input("Enter your answer: ").capitalize()
 
