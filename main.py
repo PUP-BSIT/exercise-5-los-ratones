@@ -51,7 +51,7 @@ for x in range(5):
         case 2:
             pass
         case 3:
-            pass
+            score += question_4()
         case 4:
             pass
 
