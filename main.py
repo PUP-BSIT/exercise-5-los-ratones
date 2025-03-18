@@ -34,7 +34,7 @@ def question_5():
     else:
         print(f"{answer} is incorrect. The correct answer is B.\n")
 
-    if right_answer:
+    if right_answer == True:
         return 1
     else:
         return 0
