@@ -17,7 +17,7 @@ def question_2():
 
     if answer == 'D':
         right_answer = True
-        print("You are correct! India is the dirtiest country in the world!")
+        print("You are correct! Jett is the agent that uses knives as their ult!")
     else:
         print(f"{answer} is incorrect. The correct answer is D.")
 
