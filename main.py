@@ -13,7 +13,27 @@ def question_3():
 
 # TODO(Paul Benidict Reduta): Create question 4.
 def question_4():
-    pass
+    member = "Paul Benidict L. Reduta"
+    question = "In the game 'League of Legends', which item grants bonus health scaling with stacks."
+    choices = ["Sunfire Aegis", "Seraph's Embrace", 
+               "Heartsteel", "Overlord's Bloodmail"]
+    right_answer = False 
+
+    print(f"({member}) {question}")
+    print(f"A. {choices[0]}, B. {choices[1]}")
+    print(f"C. {choices[2]}, D. {choices[3]}")
+    answer = input("Enter your answer: ").capitalize()
+
+    if answer == 'D':
+        right_answer = True
+        print("You are correct! India is the dirtiest country in the world!\n")
+    else:
+        print(f"{answer} is incorrect. The correct answer is D.\n")
+
+    if right_answer == True:
+        return 1
+    else:
+        return 0
 
 # TODO(JohnPaul Rodriguez): Create question 5.
 def question_5():
@@ -35,7 +55,7 @@ for x in range(5):
         case 4:
             pass
 
-if score > 1:
+if score >= 1:
     print(f"Congratulations! You scored {score} out of 5!")
 else:
     print("You scored 0 out of 5. Better luck next time!")
